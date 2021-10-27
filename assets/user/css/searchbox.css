@@ -1,0 +1,43 @@
+.usersearchbox{
+    position: relative;
+}
+#searchuserdata{
+    list-style-type: none;
+    position: absolute;
+    margin: 0;
+    z-index: 9999;
+    top: 40px;
+    left: 0;
+    padding: 0;
+    max-width: 100%;
+    min-width: 250px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+#searchuserdata li{
+    padding: 5px 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#searchuserdata li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%!important;
+}
+#searchuserdata li:hover{
+    background-color: #eee;
+    padding: 5px 15px;
+}
+.searchuserhide{
+    display: none;
+}
+
+#userimage{
+    padding: 2px 5px;
+}
+#userimage img{
+    height: 30px;
+    width: 30px;
+}
